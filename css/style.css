@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Odibee+Sans&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav{
+    background: inherit;
+}
+
+h1{
+    font-family: 'Inspiration', cursive;
+    color:aliceblue;
+    font-size: 50px;
+    font-weight: 1000;
+    transform: translate(400px,100px);
+
+  
+}
+
+.main{
+    background: url(/image/sunburn.jpeg)no-repeat center/cover;
+    height: 100vh;
+    z-index: 10;
+}
+
+.nav{
+    background: white;
+
+}
+
+.btn {
+    
+    padding: 20px 20px;
+    transform: translate(630px,450%);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+    background-color: hsl(24, 93%, 55%);
+    color: white;
+}
+
+.btn:hover{
+    background-color: hsl(23, 78%, 68%);
+    width: 10%;
+
+}
+
+.modal{
+    background:black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 30;
+    color: aliceblue;
+    transform: translate(400px,-600px);
+    width: 40%;
+    padding: 30px 30px;
+    border: white;
+    height: 30vh;
+   border-radius: 15px;
+   box-shadow: 5px 5px 5px rgba(255,255,255,0.8);
+
+}
+
+.modal p{
+    margin-top: 30px;
+}
+
+.modal button{
+    padding: 1px 1px;
+    width: 5%;
+    color: aliceblue;
+    background: red;
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-1:hover{
+    background-color:hsl(0, 45%, 69%);
+    width: 6%;
+    
+}
+
+#inactive{
+    display: none;
+
+}
